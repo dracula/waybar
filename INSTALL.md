@@ -1,17 +1,35 @@
-### [Foobar](https://foobar.com)
+### [waybar](https://github.com/Alexays/Waybar)
 
 #### Install using Git
 
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
-    git clone https://github.com/dracula/foobar.git
+    git clone https://github.com/dracula/waybar.git
 
 #### Install manually
 
-Download using the [GitHub .zip download](https://github.com/dracula/foobar/archive/master.zip) option and unzip them.
+Download using the [GitHub .zip download](https://github.com/dracula/waybar/archive/master.zip) option and unzip them.
 
 #### Activating theme
 
-1. Do this
-2. Then that
-3. Boom! It's working
+- If you only want dracula color palette: `cp waybar/colors.css ~/.config/waybar/`
+
+and in your style.css, add
+```css
+@import url("./colors.css");
+/* example usage */
+window#waybar {
+background: @background;
+color: @purple;
+/* or cyan, green, orange, pink, red, yellow, foreground, background-darker etc. */
+}
+```
+
+- If you want waybar to look exactly like the screenshot
+
+```bash
+cp -rv waybar ~/.config/
+```
+
+font is Iosevka, icons obsidian.
+
