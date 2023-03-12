@@ -12,9 +12,10 @@ Download using the [GitHub .zip download](https://github.com/dracula/waybar/arch
 
 #### Activating theme
 
-- If you only want dracula color palette: `cp waybar/colors.css ~/.config/waybar/`
+If you only want dracula color palette: 
 
-and in your style.css, add
+1. `cp waybar/colors.css ~/.config/waybar/`
+2. and in your style.css, add
 ```css
 @import url("./colors.css");
 /* example usage */
@@ -25,7 +26,7 @@ color: @purple;
 }
 ```
 
-- If you want waybar to look exactly like the screenshot
+Or, if you want waybar to look exactly like the screenshot:
 
 ```bash
 cp -rv waybar ~/.config/
