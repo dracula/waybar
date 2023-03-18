@@ -32,5 +32,5 @@ Or, if you want waybar to look exactly like the screenshot:
 cp -rv waybar ~/.config/
 ```
 
-font is Iosevka, icons obsidian.
+Font is Iosevka, icons obsidian. Change `CITY` to your city/town/country in `~/.config/waybar/wittr.sh` if you want weather [documentation](https://wttr.in/:help) [source](https://github.com/chubin/wttr.in). Make adjustments in the config to your liking, ie. s/hyprland/sway/g. 
 

@@ -12,6 +12,8 @@
   ],
   "modules-right": [
     "tray",
+    "hyprland/language",
+    "custom/weather",
     "clock"
   ],
   "wlr/taskbar": {
@@ -23,8 +25,11 @@
   },
   "wlr/workspaces": {
     "on-click": "activate",
-    "on-scroll-up": "hyprctl dispatch workspace e+1",
-    "on-scroll-down": "hyprctl dispatch workspace e-1"
+    "on-scroll-up": "hyprctl dispatch workspace e-1",
+    "on-scroll-down": "hyprctl dispatch workspace e+1"
+  },
+  "hyprland/window": {
+    "max-length": 128
   },
   "clock": {
     "format": "{:%c}",
@@ -32,5 +37,17 @@
   },
   "tray": {
     "spacing": 4
+  },
+  "custom/weather": {
+    "exec": "~/.config/waybar/wittr.sh",
+    "return-type": "json",
+    "format": "{}",
+    "tooltip": true,
+    "interval": 900
+  },
+  "hyprland/language": {
+    "format-pl": "[pl]",
+    "format-en": "[us]",
+    "on-click": "hyprctl switchxkblayout at-translated-set-2-keyboard next"
   }
 }
