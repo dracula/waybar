@@ -25,6 +25,9 @@ window#waybar {
 #workspaces button.active {
     background-image: linear-gradient(0deg, @purple, @selection);
 }
+#workspaces button.urgent {
+    background-image: linear-gradient(0deg, @red, @background-darker);
+}
 #taskbar button.active {
     background-image: linear-gradient(0deg, @selection, @background-darker);
 }
