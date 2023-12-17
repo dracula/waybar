@@ -12,9 +12,9 @@ All instructions can be found at [draculatheme.com/waybar](https://draculatheme.
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/waybar/graphs/contributors).
 
-| [![milkknife](https://github.com/milkknife.png?size=100)](https://github.com/milkknife) |
+| [![keloran](https://github.com/keloran.png?size=100)](https://github.com/keloran) |
 | ---------------------------------------------------------------------------------------- |
-| [milkknife](https://github.com/milkknife)                                               |
+| [keloran](https://github.com/keloran)                                               |
 
 ## Community
 
