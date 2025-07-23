@@ -22,6 +22,7 @@ window#waybar {
     text-shadow: inherit;
     background-image: linear-gradient(0deg, @selection, @background-darker);
 }
+#workspaces button.focused,
 #workspaces button.active {
     background-image: linear-gradient(0deg, @purple, @selection);
 }
